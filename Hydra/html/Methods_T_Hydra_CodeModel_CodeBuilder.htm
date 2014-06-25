@@ -1,0 +1,989 @@
+﻿<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>CodeBuilder Methods</title>
+    <meta name="Language" content="en-us" />
+    <meta name="System.Keywords" content="CodeBuilder class, methods" />
+    <meta name="Microsoft.Help.Id" content="Methods.T:Hydra.CodeModel.CodeBuilder" />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="true" />
+    
+    <meta name="container" content="Hydra.CodeModel" />
+    <meta name="file" content="Methods_T_Hydra_CodeModel_CodeBuilder" />
+    <meta name="guid" content="Methods_T_Hydra_CodeModel_CodeBuilder" />
+    
+    <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
+    <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+  </head>
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="pageHeader" id="PageHeader">Hydra Documentation<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div>
+    <div class="pageBody">
+      <div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="R_Project_Documentation.htm" title="Hydra Documentation" tocid="roottoc">Hydra Documentation</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="R_Project_Documentation.htm" title="Namespaces" tocid="R_Project_Documentation">Namespaces</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="G_Hydra.htm" title="Hydra Namespaces" tocid="G_Hydra">Hydra Namespaces</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="N_Hydra_CodeModel.htm" title="Hydra.CodeModel" tocid="N_Hydra_CodeModel">Hydra.CodeModel</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="T_Hydra_CodeModel_CodeBuilder.htm" title="CodeBuilder Class" tocid="T_Hydra_CodeModel_CodeBuilder">CodeBuilder Class</a></div><div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Methods_T_Hydra_CodeModel_CodeBuilder.htm" title="CodeBuilder Methods" tocid="Methods_T_Hydra_CodeModel_CodeBuilder">CodeBuilder Methods</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_Add.htm" title="Add Method " tocid="M_Hydra_CodeModel_CodeBuilder_Add">Add Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_And.htm" title="And Method " tocid="M_Hydra_CodeModel_CodeBuilder_And">And Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_Hydra_CodeModel_CodeBuilder_AsMethodRef.htm" title="AsMethodRef Method " tocid="Overload_Hydra_CodeModel_CodeBuilder_AsMethodRef">AsMethodRef Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_Assign.htm" title="Assign Method " tocid="M_Hydra_CodeModel_CodeBuilder_Assign">Assign Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_AsStmt.htm" title="AsStmt Method " tocid="M_Hydra_CodeModel_CodeBuilder_AsStmt">AsStmt Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_AsTypeRef.htm" title="AsTypeRef Method " tocid="M_Hydra_CodeModel_CodeBuilder_AsTypeRef">AsTypeRef Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_Hydra_CodeModel_CodeBuilder_Attribute.htm" title="Attribute Method " tocid="Overload_Hydra_CodeModel_CodeBuilder_Attribute">Attribute Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_Base.htm" title="Base Method " tocid="M_Hydra_CodeModel_CodeBuilder_Base">Base Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_Cast.htm" title="Cast Method " tocid="M_Hydra_CodeModel_CodeBuilder_Cast">Cast Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_CodeUnit.htm" title="CodeUnit Method " tocid="M_Hydra_CodeModel_CodeBuilder_CodeUnit">CodeUnit Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_Comment.htm" title="Comment Method " tocid="M_Hydra_CodeModel_CodeBuilder_Comment">Comment Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_ConstructorDeclaration.htm" title="ConstructorDeclaration Method " tocid="M_Hydra_CodeModel_CodeBuilder_ConstructorDeclaration">ConstructorDeclaration Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_Create.htm" title="Create Method " tocid="M_Hydra_CodeModel_CodeBuilder_Create">Create Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_Hydra_CodeModel_CodeBuilder_CreateArray.htm" title="CreateArray Method " tocid="Overload_Hydra_CodeModel_CodeBuilder_CreateArray">CreateArray Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_Divide.htm" title="Divide Method " tocid="M_Hydra_CodeModel_CodeBuilder_Divide">Divide Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_ElseIf.htm" title="ElseIf Method " tocid="M_Hydra_CodeModel_CodeBuilder_ElseIf">ElseIf Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_EnumDeclaration.htm" title="EnumDeclaration Method " tocid="M_Hydra_CodeModel_CodeBuilder_EnumDeclaration">EnumDeclaration Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_Hydra_CodeModel_CodeBuilder_FieldDeclaration.htm" title="FieldDeclaration Method " tocid="Overload_Hydra_CodeModel_CodeBuilder_FieldDeclaration">FieldDeclaration Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_Hydra_CodeModel_CodeBuilder_FieldRef.htm" title="FieldRef Method " tocid="Overload_Hydra_CodeModel_CodeBuilder_FieldRef">FieldRef Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_For.htm" title="For Method " tocid="M_Hydra_CodeModel_CodeBuilder_For">For Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_ForEach.htm" title="ForEach Method " tocid="M_Hydra_CodeModel_CodeBuilder_ForEach">ForEach Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_Hydra_CodeModel_CodeBuilder_Func.htm" title="Func Method " tocid="Overload_Hydra_CodeModel_CodeBuilder_Func">Func Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_Hydra_CodeModel_CodeBuilder_GenericArg.htm" title="GenericArg Method " tocid="Overload_Hydra_CodeModel_CodeBuilder_GenericArg">GenericArg Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_GetPropertyName.htm" title="GetPropertyName Method " tocid="M_Hydra_CodeModel_CodeBuilder_GetPropertyName">GetPropertyName Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_GetScope.htm" title="GetScope Method " tocid="M_Hydra_CodeModel_CodeBuilder_GetScope">GetScope Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_GreaterThan.htm" title="GreaterThan Method " tocid="M_Hydra_CodeModel_CodeBuilder_GreaterThan">GreaterThan Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_GreaterThanOrEqual.htm" title="GreaterThanOrEqual Method " tocid="M_Hydra_CodeModel_CodeBuilder_GreaterThanOrEqual">GreaterThanOrEqual Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_If.htm" title="If Method " tocid="M_Hydra_CodeModel_CodeBuilder_If">If Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_Indexer.htm" title="Indexer Method " tocid="M_Hydra_CodeModel_CodeBuilder_Indexer">Indexer Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_Invoke.htm" title="Invoke Method " tocid="M_Hydra_CodeModel_CodeBuilder_Invoke">Invoke Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_IsEqual.htm" title="IsEqual Method " tocid="M_Hydra_CodeModel_CodeBuilder_IsEqual">IsEqual Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_IsTypeOf.htm" title="IsTypeOf Method " tocid="M_Hydra_CodeModel_CodeBuilder_IsTypeOf">IsTypeOf Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_LessThan.htm" title="LessThan Method " tocid="M_Hydra_CodeModel_CodeBuilder_LessThan">LessThan Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_LessThanOrEqual.htm" title="LessThanOrEqual Method " tocid="M_Hydra_CodeModel_CodeBuilder_LessThanOrEqual">LessThanOrEqual Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_MethodDeclaration.htm" title="MethodDeclaration Method " tocid="M_Hydra_CodeModel_CodeBuilder_MethodDeclaration">MethodDeclaration Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_Hydra_CodeModel_CodeBuilder_MethodRef.htm" title="MethodRef Method " tocid="Overload_Hydra_CodeModel_CodeBuilder_MethodRef">MethodRef Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_Multiply.htm" title="Multiply Method " tocid="M_Hydra_CodeModel_CodeBuilder_Multiply">Multiply Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_Namespace.htm" title="Namespace Method " tocid="M_Hydra_CodeModel_CodeBuilder_Namespace">Namespace Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_NotEqual.htm" title="NotEqual Method " tocid="M_Hydra_CodeModel_CodeBuilder_NotEqual">NotEqual Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_Null.htm" title="Null Method " tocid="M_Hydra_CodeModel_CodeBuilder_Null">Null Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_Operator.htm" title="Operator Method " tocid="M_Hydra_CodeModel_CodeBuilder_Operator">Operator Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_Or.htm" title="Or Method " tocid="M_Hydra_CodeModel_CodeBuilder_Or">Or Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_Hydra_CodeModel_CodeBuilder_ParameterDeclaration.htm" title="ParameterDeclaration Method " tocid="Overload_Hydra_CodeModel_CodeBuilder_ParameterDeclaration">ParameterDeclaration Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_Hydra_CodeModel_CodeBuilder_ParameterRef.htm" title="ParameterRef Method " tocid="Overload_Hydra_CodeModel_CodeBuilder_ParameterRef">ParameterRef Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_Prim.htm" title="Prim Method " tocid="M_Hydra_CodeModel_CodeBuilder_Prim">Prim Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_Hydra_CodeModel_CodeBuilder_PropertyDeclaration.htm" title="PropertyDeclaration Method " tocid="Overload_Hydra_CodeModel_CodeBuilder_PropertyDeclaration">PropertyDeclaration Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_Hydra_CodeModel_CodeBuilder_PropertyRef.htm" title="PropertyRef Method " tocid="Overload_Hydra_CodeModel_CodeBuilder_PropertyRef">PropertyRef Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_Return.htm" title="Return Method " tocid="M_Hydra_CodeModel_CodeBuilder_Return">Return Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_SetterValue.htm" title="SetterValue Method " tocid="M_Hydra_CodeModel_CodeBuilder_SetterValue">SetterValue Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_Subtract.htm" title="Subtract Method " tocid="M_Hydra_CodeModel_CodeBuilder_Subtract">Subtract Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_Ternary.htm" title="Ternary Method " tocid="M_Hydra_CodeModel_CodeBuilder_Ternary">Ternary Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_This.htm" title="This Method " tocid="M_Hydra_CodeModel_CodeBuilder_This">This Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_Hydra_CodeModel_CodeBuilder_Throw.htm" title="Throw Method " tocid="Overload_Hydra_CodeModel_CodeBuilder_Throw">Throw Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_Try.htm" title="Try Method " tocid="M_Hydra_CodeModel_CodeBuilder_Try">Try Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_Hydra_CodeModel_CodeBuilder_Type.htm" title="Type Method " tocid="Overload_Hydra_CodeModel_CodeBuilder_Type">Type Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_TypeDeclaration.htm" title="TypeDeclaration Method " tocid="M_Hydra_CodeModel_CodeBuilder_TypeDeclaration">TypeDeclaration Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_TypeOf.htm" title="TypeOf Method " tocid="M_Hydra_CodeModel_CodeBuilder_TypeOf">TypeOf Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_TypeRef.htm" title="TypeRef Method " tocid="M_Hydra_CodeModel_CodeBuilder_TypeRef">TypeRef Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_Hydra_CodeModel_CodeBuilder_VarDecl.htm" title="VarDecl Method " tocid="Overload_Hydra_CodeModel_CodeBuilder_VarDecl">VarDecl Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_VariableRef.htm" title="VariableRef Method " tocid="M_Hydra_CodeModel_CodeBuilder_VariableRef">VariableRef Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_CodeBuilder_While.htm" title="While Method " tocid="M_Hydra_CodeModel_CodeBuilder_While">While Method </a></div></div></div><div id="TocResize" class="tocResize" onmousedown="OnMouseDown(event);"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize"><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize"></div><div class="topicContent" id="TopicContent">
+        <table class="titleTable">
+          <tr>
+            <td class="titleColumn">CodeBuilder Methods</td>
+          </tr>
+        </table>
+        <span class="introStyle"></span>
+        <p>The <a href="T_Hydra_CodeModel_CodeBuilder.htm">CodeBuilder</a> type exposes the following members.</p>
+        <div class="collapsibleAreaRegion">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
+            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span>
+        </div>
+        <div id="ID0RBSection" class="collapsibleSection">
+          <table id="memberList" class="members">
+            <tr>
+              <th class="iconColumn">
+								 
+							</th>
+              <th>Name</th>
+              <th>Description</th>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_Add.htm">Add</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_And.htm">And</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_AsMethodRef.htm">AsMethodRef(ParameterReferenceExpression)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_AsMethodRef_1.htm">AsMethodRef(VariableReferenceExpression)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_Assign.htm">Assign</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_AsStmt.htm">AsStmt</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_AsTypeRef.htm">AsTypeRef</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_Attribute__1.htm">Attribute<span id="LSTD777CE3A_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD777CE3A_0?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTD777CE3A_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD777CE3A_1?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(MethodBuilder<span id="LSTD777CE3A_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD777CE3A_2?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTD777CE3A_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD777CE3A_3?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, TypeReference)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_Attribute__1_1.htm">Attribute<span id="LSTD777CE3A_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD777CE3A_4?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTD777CE3A_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD777CE3A_5?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(PropertyBuilder<span id="LSTD777CE3A_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD777CE3A_6?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTD777CE3A_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD777CE3A_7?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, TypeReference)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_Attribute__1_2.htm">Attribute<span id="LSTD777CE3A_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD777CE3A_8?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTD777CE3A_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD777CE3A_9?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(TypeBuilder<span id="LSTD777CE3A_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD777CE3A_10?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTD777CE3A_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD777CE3A_11?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, TypeReference)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_Base.htm">Base</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_Cast.htm">Cast</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_CodeUnit.htm">CodeUnit</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_Comment.htm">Comment</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_ConstructorDeclaration.htm">ConstructorDeclaration</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_Create.htm">Create</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_CreateArray.htm">CreateArray(TypeReference)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_CreateArray_1.htm">CreateArray(TypeReference, Expression)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_Divide.htm">Divide</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_ElseIf.htm">ElseIf</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_EnumDeclaration.htm">EnumDeclaration</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_FieldDeclaration.htm">FieldDeclaration(TypeReference, String, AccessModifier)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_FieldDeclaration__1.htm">FieldDeclaration<span id="LSTD777CE3A_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD777CE3A_12?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTD777CE3A_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD777CE3A_13?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(String, AccessModifier)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_FieldRef_2.htm">FieldRef(String)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_FieldRef.htm">FieldRef(Expression, String)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_FieldRef_1.htm">FieldRef(TypeReference, String)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_For.htm">For</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_ForEach.htm">ForEach</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_Func.htm">Func<span id="LSTD777CE3A_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD777CE3A_14?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_Func__1.htm">Func<span id="LSTD777CE3A_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD777CE3A_15?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTD777CE3A_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD777CE3A_16?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(StatementsBuilder<span id="LSTD777CE3A_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD777CE3A_17?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTD777CE3A_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD777CE3A_18?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_GenericArg.htm">GenericArg(TypeReference, TypeReference)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_GenericArg_1.htm">GenericArg(TypeReference, ServiceType)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_GenericArg_3.htm">GenericArg(TypeReference, Type)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_GenericArg_2.htm">GenericArg(TypeReference, String, String)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_GenericArg__1.htm">GenericArg<span id="LSTD777CE3A_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD777CE3A_19?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTD777CE3A_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD777CE3A_20?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(TypeReference)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="private;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/privmethod.gif" alt="Private method" title="Private method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_GetPropertyName.htm">GetPropertyName</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_GetScope.htm">GetScope</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_GreaterThan.htm">GreaterThan</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_GreaterThanOrEqual.htm">GreaterThanOrEqual</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_If.htm">If</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_Indexer.htm">Indexer</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_Invoke.htm">Invoke</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_IsEqual.htm">IsEqual</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_IsTypeOf.htm">IsTypeOf</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_LessThan.htm">LessThan</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_LessThanOrEqual.htm">LessThanOrEqual</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_MethodDeclaration.htm">MethodDeclaration</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_MethodRef_2.htm">MethodRef(String)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_MethodRef.htm">MethodRef(Expression, String)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_MethodRef_1.htm">MethodRef(TypeReference, String)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_Multiply.htm">Multiply</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_Namespace.htm">Namespace</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_NotEqual.htm">NotEqual</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_Null.htm">Null</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_Operator.htm">Operator</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_Or.htm">Or</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_ParameterDeclaration.htm">ParameterDeclaration(TypeReference, String)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_ParameterDeclaration__1.htm">ParameterDeclaration<span id="LSTD777CE3A_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD777CE3A_21?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>U<span id="LSTD777CE3A_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD777CE3A_22?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(String)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_ParameterRef_1.htm">ParameterRef(String)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_ParameterRef.htm">ParameterRef(IParameter)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_Prim.htm">Prim</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_PropertyDeclaration.htm">PropertyDeclaration(TypeReference, String, AccessModifier)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_PropertyDeclaration__1.htm">PropertyDeclaration<span id="LSTD777CE3A_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD777CE3A_23?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTD777CE3A_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD777CE3A_24?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(String, AccessModifier)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_PropertyRef_7.htm">PropertyRef(String)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_PropertyRef_8.htm">PropertyRef(String, TypeReference)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_PropertyRef_1.htm">PropertyRef(Expression, String)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_PropertyRef_6.htm">PropertyRef(IMemberBase, CodeNaming)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_PropertyRef_4.htm">PropertyRef(TypeReference, String)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_PropertyRef.htm">PropertyRef(Expression, IMemberBase, CodeNaming)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_PropertyRef_2.htm">PropertyRef(Expression, String, TypeReference)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_PropertyRef_3.htm">PropertyRef(TypeReference, IMemberBase, CodeNaming)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_PropertyRef_5.htm">PropertyRef(TypeReference, String, TypeReference)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_Return.htm">Return</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_SetterValue.htm">SetterValue</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_Subtract.htm">Subtract</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_Ternary.htm">Ternary</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_This.htm">This</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_Throw.htm">Throw<span id="LSTD777CE3A_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD777CE3A_25?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_Throw_1.htm">Throw(Expression)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_Throw_2.htm">Throw(Expression, TypeReference, String)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_Try.htm">Try</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_Type_2.htm">Type(Type)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_Type.htm">Type(ServiceType)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_Type_1.htm">Type(String, String)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_Type__1.htm">Type<span id="LSTD777CE3A_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD777CE3A_26?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTD777CE3A_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD777CE3A_27?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LSTD777CE3A_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD777CE3A_28?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_TypeDeclaration.htm">TypeDeclaration</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_TypeOf.htm">TypeOf</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_TypeRef.htm">TypeRef</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_VarDecl.htm">VarDecl(TypeReference, String, Expression)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_VarDecl__1.htm">VarDecl<span id="LSTD777CE3A_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD777CE3A_29?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTD777CE3A_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD777CE3A_30?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(String, Expression)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_VariableRef.htm">VariableRef</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_While.htm">While</a>
+              </td>
+              <td />
+            </tr>
+          </table>
+          <a href="#PageHeader">Top</a>
+        </div>
+        <div class="collapsibleAreaRegion" id="seeAlsoSection">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0">
+            <img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span>
+        </div>
+        <div id="ID1RBSection" class="collapsibleSection">
+          <h4 class="subHeading">Reference</h4>
+          <div class="seeAlsoStyle">
+            <a href="T_Hydra_CodeModel_CodeBuilder.htm">CodeBuilder Class</a>
+          </div>
+          <div class="seeAlsoStyle">
+            <a href="N_Hydra_CodeModel.htm">Hydra.CodeModel Namespace</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="pageFooter" class="pageFooter"> </div>
+  </body>
+</html>

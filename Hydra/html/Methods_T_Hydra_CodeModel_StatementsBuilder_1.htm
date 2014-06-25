@@ -1,0 +1,874 @@
+﻿<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>StatementsBuilder(T) Methods</title>
+    <meta name="Language" content="en-us" />
+    <meta name="System.Keywords" content="StatementsBuilder%3CT%3E class, methods" />
+    <meta name="System.Keywords" content="StatementsBuilder(Of T) class, methods" />
+    <meta name="Microsoft.Help.Id" content="Methods.T:Hydra.CodeModel.StatementsBuilder`1" />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="true" />
+    
+    <meta name="container" content="Hydra.CodeModel" />
+    <meta name="file" content="Methods_T_Hydra_CodeModel_StatementsBuilder_1" />
+    <meta name="guid" content="Methods_T_Hydra_CodeModel_StatementsBuilder_1" />
+    
+    <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
+    <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+  </head>
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="pageHeader" id="PageHeader">Hydra Documentation<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div>
+    <div class="pageBody">
+      <div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="R_Project_Documentation.htm" title="Hydra Documentation" tocid="roottoc">Hydra Documentation</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="R_Project_Documentation.htm" title="Namespaces" tocid="R_Project_Documentation">Namespaces</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="G_Hydra.htm" title="Hydra Namespaces" tocid="G_Hydra">Hydra Namespaces</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="N_Hydra_CodeModel.htm" title="Hydra.CodeModel" tocid="N_Hydra_CodeModel">Hydra.CodeModel</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="T_Hydra_CodeModel_StatementsBuilder_1.htm" title="StatementsBuilder(T) Class" tocid="T_Hydra_CodeModel_StatementsBuilder_1">StatementsBuilder(T) Class</a></div><div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Methods_T_Hydra_CodeModel_StatementsBuilder_1.htm" title="StatementsBuilder(T) Methods" tocid="Methods_T_Hydra_CodeModel_StatementsBuilder_1">StatementsBuilder(T) Methods</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_StatementsBuilder_1_Annotate__1.htm" title="Annotate(U) Method " tocid="M_Hydra_CodeModel_StatementsBuilder_1_Annotate__1">Annotate(U) Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_StatementsBuilder_1_Assign.htm" title="Assign Method " tocid="M_Hydra_CodeModel_StatementsBuilder_1_Assign">Assign Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_Hydra_CodeModel_StatementsBuilder_1_Comment.htm" title="Comment Method " tocid="Overload_Hydra_CodeModel_StatementsBuilder_1_Comment">Comment Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_StatementsBuilder_1_ElseIf.htm" title="ElseIf Method " tocid="M_Hydra_CodeModel_StatementsBuilder_1_ElseIf">ElseIf Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_StatementsBuilder_1_FindAnnotation__1.htm" title="FindAnnotation(U) Method " tocid="M_Hydra_CodeModel_StatementsBuilder_1_FindAnnotation__1">FindAnnotation(U) Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_StatementsBuilder_1_For.htm" title="For Method " tocid="M_Hydra_CodeModel_StatementsBuilder_1_For">For Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_StatementsBuilder_1_ForEach.htm" title="ForEach Method " tocid="M_Hydra_CodeModel_StatementsBuilder_1_ForEach">ForEach Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_StatementsBuilder_1_GetUniqueVariableName.htm" title="GetUniqueVariableName Method " tocid="M_Hydra_CodeModel_StatementsBuilder_1_GetUniqueVariableName">GetUniqueVariableName Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_StatementsBuilder_1_If.htm" title="If Method " tocid="M_Hydra_CodeModel_StatementsBuilder_1_If">If Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_StatementsBuilder_1_Rebase__1.htm" title="Rebase(U) Method " tocid="M_Hydra_CodeModel_StatementsBuilder_1_Rebase__1">Rebase(U) Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_StatementsBuilder_1_Return.htm" title="Return Method " tocid="M_Hydra_CodeModel_StatementsBuilder_1_Return">Return Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_StatementsBuilder_1_Separator.htm" title="Separator Method " tocid="M_Hydra_CodeModel_StatementsBuilder_1_Separator">Separator Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_Hydra_CodeModel_StatementsBuilder_1_Stmt.htm" title="Stmt Method " tocid="Overload_Hydra_CodeModel_StatementsBuilder_1_Stmt">Stmt Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_Hydra_CodeModel_StatementsBuilder_1_Throw.htm" title="Throw Method " tocid="Overload_Hydra_CodeModel_StatementsBuilder_1_Throw">Throw Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_StatementsBuilder_1_Try.htm" title="Try Method " tocid="M_Hydra_CodeModel_StatementsBuilder_1_Try">Try Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_Hydra_CodeModel_StatementsBuilder_1_VarDecl.htm" title="VarDecl Method " tocid="Overload_Hydra_CodeModel_StatementsBuilder_1_VarDecl">VarDecl Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_StatementsBuilder_1_VarName.htm" title="VarName Method " tocid="M_Hydra_CodeModel_StatementsBuilder_1_VarName">VarName Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeModel_StatementsBuilder_1_While.htm" title="While Method " tocid="M_Hydra_CodeModel_StatementsBuilder_1_While">While Method </a></div></div></div><div id="TocResize" class="tocResize" onmousedown="OnMouseDown(event);"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize"><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize"></div><div class="topicContent" id="TopicContent">
+        <table class="titleTable">
+          <tr>
+            <td class="titleColumn">StatementsBuilder<span id="LST9B2D7AC_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_0?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script><span class="typeparameter">T</span><span id="LST9B2D7AC_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_1?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script> Methods</td>
+          </tr>
+        </table>
+        <span class="introStyle"></span>
+        <p>The <a href="T_Hydra_CodeModel_StatementsBuilder_1.htm">StatementsBuilder<span id="LST9B2D7AC_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_2?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LST9B2D7AC_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_3?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a> generic type exposes the following members.</p>
+        <div class="collapsibleAreaRegion">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
+            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span>
+        </div>
+        <div id="ID0RBSection" class="collapsibleSection">
+          <table id="memberList" class="members">
+            <tr>
+              <th class="iconColumn">
+								 
+							</th>
+              <th>Name</th>
+              <th>Description</th>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_StatementsBuilder_1_Annotate__1.htm">Annotate<span id="LST9B2D7AC_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_4?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>U<span id="LST9B2D7AC_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_5?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_StatementsBuilder_1_Assign.htm">Assign</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_StatementsBuilder_1_Comment.htm">Comment(String)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_StatementsBuilder_1_Comment_1.htm">Comment(String, Boolean)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_StatementsBuilder_1_ElseIf.htm">ElseIf</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_ScopedBuilder_1_End.htm">End</a>
+              </td>
+              <td> (Inherited from <a href="T_Hydra_CodeModel_ScopedBuilder_1.htm">ScopedBuilder<span id="LST9B2D7AC_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_6?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LST9B2D7AC_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_7?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/bsc2ak47" target="_blank">Equals</a>
+              </td>
+              <td>
+                <div class="summary">Determines whether the specified object is equal to the current object.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+            <tr data="protected;inherited;notNetfw;">
+              <td>
+                <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/4k87zsw7" target="_blank">Finalize</a>
+              </td>
+              <td>
+                <div class="summary">Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_StatementsBuilder_1_FindAnnotation__1.htm">FindAnnotation<span id="LST9B2D7AC_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_8?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>U<span id="LST9B2D7AC_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_9?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_StatementsBuilder_1_For.htm">For</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_StatementsBuilder_1_ForEach.htm">ForEach</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/zdee4b3y" target="_blank">GetHashCode</a>
+              </td>
+              <td>
+                <div class="summary">Serves as the default hash function. </div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/dfwy45w9" target="_blank">GetType</a>
+              </td>
+              <td>
+                <div class="summary">Gets the <a href="http://msdn2.microsoft.com/en-us/library/42892f65" target="_blank">Type</a> of the current instance.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_StatementsBuilder_1_GetUniqueVariableName.htm">GetUniqueVariableName</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_StatementsBuilder_1_If.htm">If</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="protected;inherited;notNetfw;">
+              <td>
+                <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/57ctke0a" target="_blank">MemberwiseClone</a>
+              </td>
+              <td>
+                <div class="summary">Creates a shallow copy of the current <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_StatementsBuilder_1_Rebase__1.htm">Rebase<span id="LST9B2D7AC_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_10?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>U<span id="LST9B2D7AC_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_11?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_StatementsBuilder_1_Return.htm">Return</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_StatementsBuilder_1_Separator.htm">Separator</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_StatementsBuilder_1_Stmt.htm">Stmt(Expression)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_StatementsBuilder_1_Stmt_1.htm">Stmt(Statement)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_StatementsBuilder_1_Throw.htm">Throw<span id="LST9B2D7AC_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_12?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_StatementsBuilder_1_Throw_1.htm">Throw(Expression)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_StatementsBuilder_1_Throw_2.htm">Throw(Expression, TypeReference, String)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/7bxwbwt2" target="_blank">ToString</a>
+              </td>
+              <td>
+                <div class="summary">Returns a string that represents the current object.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_StatementsBuilder_1_Try.htm">Try</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_StatementsBuilder_1_VarDecl.htm">VarDecl(TypeReference, String, Expression)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_StatementsBuilder_1_VarDecl__1.htm">VarDecl<span id="LST9B2D7AC_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_13?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>U<span id="LST9B2D7AC_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_14?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(String, Expression)</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_StatementsBuilder_1_VarName.htm">VarName</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_StatementsBuilder_1_While.htm">While</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="protected;inherited;notNetfw;">
+              <td>
+                <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_ScopedBuilder_1_WithParent.htm">WithParent</a>
+              </td>
+              <td> (Inherited from <a href="T_Hydra_CodeModel_ScopedBuilder_1.htm">ScopedBuilder<span id="LST9B2D7AC_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_15?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LST9B2D7AC_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_16?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+          </table>
+          <a href="#PageHeader">Top</a>
+        </div>
+        <div class="collapsibleAreaRegion">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0">
+            <img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Extension Methods</span>
+        </div>
+        <div id="ID1RBSection" class="collapsibleSection">
+          <table id="memberList" class="members">
+            <tr>
+              <th class="iconColumn">
+								 
+							</th>
+              <th>Name</th>
+              <th>Description</th>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_PlatformFlavorExtensions_AsyncFx__1.htm">AsyncFx<span id="LST9B2D7AC_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_17?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_18?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_PlatformFlavorExtensions.htm">PlatformFlavorExtensions</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_XmlSerializationGenerator_CheckNilable__1.htm">CheckNilable<span id="LST9B2D7AC_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_19?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_20?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_XmlSerializationGenerator.htm">XmlSerializationGenerator</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_XmlStaxSerializationGenerator_CheckNilableStax__1.htm">CheckNilableStax<span id="LST9B2D7AC_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_21?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_22?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_XmlStaxSerializationGenerator.htm">XmlStaxSerializationGenerator</a>.)</td>
+            </tr>
+            <tr data="private;inherited;notNetfw;">
+              <td>
+                <img src="../icons/privextension.gif" alt="Private Extension Method" title="Private Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_XmlSerializationGenerator_CheckNull__1.htm">CheckNull<span id="LST9B2D7AC_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_23?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_24?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_XmlSerializationGenerator.htm">XmlSerializationGenerator</a>.)</td>
+            </tr>
+            <tr data="private;inherited;notNetfw;">
+              <td>
+                <img src="../icons/privextension.gif" alt="Private Extension Method" title="Private Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_XmlStaxSerializationGenerator_CheckNullStax__1.htm">CheckNullStax<span id="LST9B2D7AC_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_25?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_26?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_XmlStaxSerializationGenerator.htm">XmlStaxSerializationGenerator</a>.)</td>
+            </tr>
+            <tr data="private;inherited;notNetfw;">
+              <td>
+                <img src="../icons/privextension.gif" alt="Private Extension Method" title="Private Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_CodeGenerator_CheckResponse__1.htm">CheckResponse<span id="LST9B2D7AC_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_27?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_28?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_CodeGenerator.htm">CodeGenerator</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_PlatformFlavorExtensions_CollectionFx__1.htm">CollectionFx<span id="LST9B2D7AC_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_29?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_30?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_PlatformFlavorExtensions.htm">PlatformFlavorExtensions</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_PlatformFlavorExtensions_ConversionFx__1.htm">ConversionFx<span id="LST9B2D7AC_31"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_31?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_32?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_PlatformFlavorExtensions.htm">PlatformFlavorExtensions</a>.)</td>
+            </tr>
+            <tr data="private;inherited;notNetfw;">
+              <td>
+                <img src="../icons/privextension.gif" alt="Private Extension Method" title="Private Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_JsonSerializationGenerator_ConvertFromJsonValue__1.htm">ConvertFromJsonValue<span id="LST9B2D7AC_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_33?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_34"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_34?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_JsonSerializationGenerator.htm">JsonSerializationGenerator</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_XmlSerializationGenerator_ConvertFromString__1.htm">ConvertFromString<span id="LST9B2D7AC_35"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_35?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_36"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_36?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_XmlSerializationGenerator.htm">XmlSerializationGenerator</a>.)</td>
+            </tr>
+            <tr data="private;inherited;notNetfw;">
+              <td>
+                <img src="../icons/privextension.gif" alt="Private Extension Method" title="Private Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_JsonSerializationGenerator_ConvertToJsonValue__1.htm">ConvertToJsonValue<span id="LST9B2D7AC_37"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_37?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_38"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_38?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_JsonSerializationGenerator.htm">JsonSerializationGenerator</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_XmlSerializationGenerator_ConvertToString__1.htm">ConvertToString<span id="LST9B2D7AC_39"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_39?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_40"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_40?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_XmlSerializationGenerator.htm">XmlSerializationGenerator</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_PlatformFlavorExtensions_CredentialsFx__1.htm">CredentialsFx<span id="LST9B2D7AC_41"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_41?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_42"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_42?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_PlatformFlavorExtensions.htm">PlatformFlavorExtensions</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_PlatformFlavorExtensions_CryptoFx__1.htm">CryptoFx<span id="LST9B2D7AC_43"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_43?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_44"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_44?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_PlatformFlavorExtensions.htm">PlatformFlavorExtensions</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_PlatformFlavorExtensions_DateFx__1.htm">DateFx<span id="LST9B2D7AC_45"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_45?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_46"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_46?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_PlatformFlavorExtensions.htm">PlatformFlavorExtensions</a>.)</td>
+            </tr>
+            <tr data="private;inherited;notNetfw;">
+              <td>
+                <img src="../icons/privextension.gif" alt="Private Extension Method" title="Private Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_JsonSerializationGenerator_Deserialize__1.htm">Deserialize<span id="LST9B2D7AC_47"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_47?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_48"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_48?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(IJsonBase, String, String)</a>
+              </td>
+              <td>Overloaded.   (Defined by <a href="T_Hydra_CodeGeneration_JsonSerializationGenerator.htm">JsonSerializationGenerator</a>.)</td>
+            </tr>
+            <tr data="private;inherited;notNetfw;">
+              <td>
+                <img src="../icons/privextension.gif" alt="Private Extension Method" title="Private Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_XmlSerializationGenerator_Deserialize__1.htm">Deserialize<span id="LST9B2D7AC_49"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_49?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_50"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_50?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(IXmlSerializationBase, String, String)</a>
+              </td>
+              <td>Overloaded.   (Defined by <a href="T_Hydra_CodeGeneration_XmlSerializationGenerator.htm">XmlSerializationGenerator</a>.)</td>
+            </tr>
+            <tr data="private;inherited;notNetfw;">
+              <td>
+                <img src="../icons/privextension.gif" alt="Private Extension Method" title="Private Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_JsonSerializationGenerator_DeserializeContent__1.htm">DeserializeContent<span id="LST9B2D7AC_51"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_51?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_52"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_52?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_JsonSerializationGenerator.htm">JsonSerializationGenerator</a>.)</td>
+            </tr>
+            <tr data="private;inherited;notNetfw;">
+              <td>
+                <img src="../icons/privextension.gif" alt="Private Extension Method" title="Private Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_XmlStaxSerializationGenerator_DeserializeElementValue__1.htm">DeserializeElementValue<span id="LST9B2D7AC_53"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_53?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_54"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_54?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(IXmlElement, String, String, String)</a>
+              </td>
+              <td>Overloaded.   (Defined by <a href="T_Hydra_CodeGeneration_XmlStaxSerializationGenerator.htm">XmlStaxSerializationGenerator</a>.)</td>
+            </tr>
+            <tr data="private;inherited;notNetfw;">
+              <td>
+                <img src="../icons/privextension.gif" alt="Private Extension Method" title="Private Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_XmlSerializationGenerator_DeserializeElementValue__1.htm">DeserializeElementValue<span id="LST9B2D7AC_55"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_55?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_56"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_56?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(IXmlElement, String, String, String)</a>
+              </td>
+              <td>Overloaded.   (Defined by <a href="T_Hydra_CodeGeneration_XmlSerializationGenerator.htm">XmlSerializationGenerator</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_JsonSerializationGenerator_DeserializeJsonResponse__1.htm">DeserializeJsonResponse<span id="LST9B2D7AC_57"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_57?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_58"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_58?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_JsonSerializationGenerator.htm">JsonSerializationGenerator</a>.)</td>
+            </tr>
+            <tr data="private;inherited;notNetfw;">
+              <td>
+                <img src="../icons/privextension.gif" alt="Private Extension Method" title="Private Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_CodeGenerator_DeserializeResponse__1.htm">DeserializeResponse<span id="LST9B2D7AC_59"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_59?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_60"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_60?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_CodeGenerator.htm">CodeGenerator</a>.)</td>
+            </tr>
+            <tr data="private;inherited;notNetfw;">
+              <td>
+                <img src="../icons/privextension.gif" alt="Private Extension Method" title="Private Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_XmlStaxSerializationGenerator_DeserializeStax__1.htm">DeserializeStax<span id="LST9B2D7AC_61"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_61?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_62"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_62?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_XmlStaxSerializationGenerator.htm">XmlStaxSerializationGenerator</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_XmlSerializationGenerator_DeserializeXmlResponse__1.htm">DeserializeXmlResponse<span id="LST9B2D7AC_63"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_63?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_64"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_64?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_XmlSerializationGenerator.htm">XmlSerializationGenerator</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_XmlStaxSerializationGenerator_DeserializeXmlStaxResponse__1.htm">DeserializeXmlStaxResponse<span id="LST9B2D7AC_65"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_65?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_66"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_66?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_XmlStaxSerializationGenerator.htm">XmlStaxSerializationGenerator</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_Extensions_Dump.htm">Dump</a>
+              </td>
+              <td>
+                <div class="summary">
+            Helper to dump an object for the purpose of debugging/temporary
+            serialization.
+            </div> (Defined by <a href="T_Hydra_Extensions.htm">Extensions</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_PlatformFlavorExtensions_ErrorFx__1.htm">ErrorFx<span id="LST9B2D7AC_67"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_67?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_68"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_68?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_PlatformFlavorExtensions.htm">PlatformFlavorExtensions</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeBuilder_Func__1.htm">Func<span id="LST9B2D7AC_69"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_69?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_70"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_70?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeModel_CodeBuilder.htm">CodeBuilder</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_DefaultValueBindingExpressionGeneratorExtensions_GenerateDefaultValueExpression__1.htm">GenerateDefaultValueExpression<span id="LST9B2D7AC_71"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_71?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_72"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_72?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_DefaultValueBindingExpressionGeneratorExtensions.htm">DefaultValueBindingExpressionGeneratorExtensions</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_PlatformFlavorExtensions_GetFramework__2.htm">GetFramework<span id="LST9B2D7AC_73"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_73?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T, F<span id="LST9B2D7AC_74"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_74?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_PlatformFlavorExtensions.htm">PlatformFlavorExtensions</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_PlatformFlavorExtensions_GetPlatformFlavor__1_1.htm">GetPlatformFlavor<span id="LST9B2D7AC_75"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_75?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_76"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_76?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_PlatformFlavorExtensions.htm">PlatformFlavorExtensions</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_PlatformFlavorExtensions_GuidFx__1.htm">GuidFx<span id="LST9B2D7AC_77"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_77?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_78"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_78?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_PlatformFlavorExtensions.htm">PlatformFlavorExtensions</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_PlatformFlavorExtensions_HasFramework__2.htm">HasFramework<span id="LST9B2D7AC_79"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_79?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T, F<span id="LST9B2D7AC_80"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_80?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_PlatformFlavorExtensions.htm">PlatformFlavorExtensions</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_PlatformFlavorExtensions_JsonFx__1.htm">JsonFx<span id="LST9B2D7AC_81"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_81?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_82"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_82?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_PlatformFlavorExtensions.htm">PlatformFlavorExtensions</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_PlatformFlavorExtensions_ModelFx__1_1.htm">ModelFx<span id="LST9B2D7AC_83"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_83?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_84"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_84?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_PlatformFlavorExtensions.htm">PlatformFlavorExtensions</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_PlatformFlavorExtensions_NullFx__1.htm">NullFx<span id="LST9B2D7AC_85"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_85?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_86"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_86?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_PlatformFlavorExtensions.htm">PlatformFlavorExtensions</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_PlatformFlavorExtensions_PatchableFx__1.htm">PatchableFx<span id="LST9B2D7AC_87"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_87?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_88"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_88?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_PlatformFlavorExtensions.htm">PlatformFlavorExtensions</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_PlatformFlavorExtensions_SerializationFx__1.htm">SerializationFx<span id="LST9B2D7AC_89"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_89?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_90"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_90?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_PlatformFlavorExtensions.htm">PlatformFlavorExtensions</a>.)</td>
+            </tr>
+            <tr data="private;inherited;notNetfw;">
+              <td>
+                <img src="../icons/privextension.gif" alt="Private Extension Method" title="Private Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_JsonSerializationGenerator_Serialize__1.htm">Serialize<span id="LST9B2D7AC_91"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_91?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_92"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_92?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_JsonSerializationGenerator.htm">JsonSerializationGenerator</a>.)</td>
+            </tr>
+            <tr data="private;inherited;notNetfw;">
+              <td>
+                <img src="../icons/privextension.gif" alt="Private Extension Method" title="Private Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_JsonSerializationGenerator_SerializeContent__1.htm">SerializeContent<span id="LST9B2D7AC_93"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_93?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_94"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_94?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_JsonSerializationGenerator.htm">JsonSerializationGenerator</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_JsonSerializationGenerator_SerializeJsonRequest__1.htm">SerializeJsonRequest<span id="LST9B2D7AC_95"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_95?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_96"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_96?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_JsonSerializationGenerator.htm">JsonSerializationGenerator</a>.)</td>
+            </tr>
+            <tr data="private;inherited;notNetfw;">
+              <td>
+                <img src="../icons/privextension.gif" alt="Private Extension Method" title="Private Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_CodeGenerator_SerializeRequest__1.htm">SerializeRequest<span id="LST9B2D7AC_97"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_97?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_98"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_98?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_CodeGenerator.htm">CodeGenerator</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_XmlSerializationGenerator_SerializeXmlRequest__1.htm">SerializeXmlRequest<span id="LST9B2D7AC_99"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_99?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_100"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_100?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_XmlSerializationGenerator.htm">XmlSerializationGenerator</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_XmlStaxSerializationGenerator_SerializeXmlStaxRequest__1.htm">SerializeXmlStaxRequest<span id="LST9B2D7AC_101"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_101?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_102"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_102?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_XmlStaxSerializationGenerator.htm">XmlStaxSerializationGenerator</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_PlatformFlavorExtensions_ServiceFx__1_1.htm">ServiceFx<span id="LST9B2D7AC_103"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_103?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_104"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_104?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_PlatformFlavorExtensions.htm">PlatformFlavorExtensions</a>.)</td>
+            </tr>
+            <tr data="private;inherited;notNetfw;">
+              <td>
+                <img src="../icons/privextension.gif" alt="Private Extension Method" title="Private Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_CodeGenerator_SetPropertyOnStatus__1.htm">SetPropertyOnStatus<span id="LST9B2D7AC_105"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_105?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_106"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_106?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_CodeGenerator.htm">CodeGenerator</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_PlatformFlavorExtensions_SharedKeyAuthFx__1.htm">SharedKeyAuthFx<span id="LST9B2D7AC_107"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_107?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_108"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_108?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_PlatformFlavorExtensions.htm">PlatformFlavorExtensions</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_PlatformFlavorExtensions_TextFx__1.htm">TextFx<span id="LST9B2D7AC_109"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_109?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_110"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_110?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_PlatformFlavorExtensions.htm">PlatformFlavorExtensions</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_Extensions_ToStringOrNull.htm">ToStringOrNull</a>
+              </td>
+              <td>
+                <div class="summary">
+            Return the string representation of a value or null if the value
+            is null.
+            </div> (Defined by <a href="T_Hydra_Extensions.htm">Extensions</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_PlatformFlavorExtensions_TracingFx__1.htm">TracingFx<span id="LST9B2D7AC_111"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_111?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_112"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_112?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_PlatformFlavorExtensions.htm">PlatformFlavorExtensions</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_PlatformFlavorExtensions_TypeAnalysisFx__1_1.htm">TypeAnalysisFx<span id="LST9B2D7AC_113"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_113?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_114"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_114?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_PlatformFlavorExtensions.htm">PlatformFlavorExtensions</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_PlatformFlavorExtensions_UrlFx__1.htm">UrlFx<span id="LST9B2D7AC_115"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_115?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_116"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_116?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_PlatformFlavorExtensions.htm">PlatformFlavorExtensions</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_PlatformFlavorExtensions_WebFx__1.htm">WebFx<span id="LST9B2D7AC_117"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_117?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_118"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_118?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_PlatformFlavorExtensions.htm">PlatformFlavorExtensions</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_PlatformFlavorExtensions_XmlFx__1.htm">XmlFx<span id="LST9B2D7AC_119"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_119?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_120"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_120?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_PlatformFlavorExtensions.htm">PlatformFlavorExtensions</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_PlatformFlavorExtensions_XmlStaxFx__1.htm">XmlStaxFx<span id="LST9B2D7AC_121"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_121?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST9B2D7AC_122"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_122?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Defined by <a href="T_Hydra_CodeGeneration_PlatformFlavorExtensions.htm">PlatformFlavorExtensions</a>.)</td>
+            </tr>
+          </table>
+          <a href="#PageHeader">Top</a>
+        </div>
+        <div class="collapsibleAreaRegion" id="seeAlsoSection">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0">
+            <img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span>
+        </div>
+        <div id="ID2RBSection" class="collapsibleSection">
+          <h4 class="subHeading">Reference</h4>
+          <div class="seeAlsoStyle">
+            <a href="T_Hydra_CodeModel_StatementsBuilder_1.htm">StatementsBuilder<span id="LST9B2D7AC_123"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_123?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LST9B2D7AC_124"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9B2D7AC_124?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script> Class</a>
+          </div>
+          <div class="seeAlsoStyle">
+            <a href="N_Hydra_CodeModel.htm">Hydra.CodeModel Namespace</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="pageFooter" class="pageFooter"> </div>
+  </body>
+</html>

@@ -1,0 +1,693 @@
+﻿<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>JsCodeWriter Methods</title>
+    <meta name="Language" content="en-us" />
+    <meta name="System.Keywords" content="JsCodeWriter class, methods" />
+    <meta name="Microsoft.Help.Id" content="Methods.T:Hydra.CodeGeneration.Javascript.JsCodeWriter" />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="true" />
+    
+    <meta name="container" content="Hydra.CodeGeneration.Javascript" />
+    <meta name="file" content="Methods_T_Hydra_CodeGeneration_Javascript_JsCodeWriter" />
+    <meta name="guid" content="Methods_T_Hydra_CodeGeneration_Javascript_JsCodeWriter" />
+    
+    <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
+    <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+  </head>
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="pageHeader" id="PageHeader">Hydra Documentation<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div>
+    <div class="pageBody">
+      <div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="R_Project_Documentation.htm" title="Hydra Documentation" tocid="roottoc">Hydra Documentation</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="R_Project_Documentation.htm" title="Namespaces" tocid="R_Project_Documentation">Namespaces</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="G_Hydra.htm" title="Hydra Namespaces" tocid="G_Hydra">Hydra Namespaces</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="G_Hydra_CodeGeneration.htm" title="Hydra.CodeGeneration Namespaces" tocid="G_Hydra_CodeGeneration">Hydra.CodeGeneration Namespaces</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="N_Hydra_CodeGeneration_Javascript.htm" title="Hydra.CodeGeneration.Javascript" tocid="N_Hydra_CodeGeneration_Javascript">Hydra.CodeGeneration.Javascript</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="T_Hydra_CodeGeneration_Javascript_JsCodeWriter.htm" title="JsCodeWriter Class" tocid="T_Hydra_CodeGeneration_Javascript_JsCodeWriter">JsCodeWriter Class</a></div><div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Methods_T_Hydra_CodeGeneration_Javascript_JsCodeWriter.htm" title="JsCodeWriter Methods" tocid="Methods_T_Hydra_CodeGeneration_Javascript_JsCodeWriter">JsCodeWriter Methods</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_NeedsParentheses.htm" title="NeedsParentheses Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_NeedsParentheses">NeedsParentheses Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_ToString.htm" title="ToString Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_ToString">ToString Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitAnonymousFunctionExpression.htm" title="VisitAnonymousFunctionExpression Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitAnonymousFunctionExpression">VisitAnonymousFunctionExpression Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitAssignmentStatement.htm" title="VisitAssignmentStatement Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitAssignmentStatement">VisitAssignmentStatement Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitAttributeDeclaration.htm" title="VisitAttributeDeclaration Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitAttributeDeclaration">VisitAttributeDeclaration Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitBaseReferenceExpression.htm" title="VisitBaseReferenceExpression Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitBaseReferenceExpression">VisitBaseReferenceExpression Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitBinaryOperatorExpression.htm" title="VisitBinaryOperatorExpression Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitBinaryOperatorExpression">VisitBinaryOperatorExpression Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitCastExpression.htm" title="VisitCastExpression Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitCastExpression">VisitCastExpression Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitCatchClauseStatement.htm" title="VisitCatchClauseStatement Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitCatchClauseStatement">VisitCatchClauseStatement Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitCodeUnit.htm" title="VisitCodeUnit Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitCodeUnit">VisitCodeUnit Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitCommentStatement.htm" title="VisitCommentStatement Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitCommentStatement">VisitCommentStatement Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitConditionStatement.htm" title="VisitConditionStatement Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitConditionStatement">VisitConditionStatement Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitConstructorDeclarationStatement.htm" title="VisitConstructorDeclarationStatement Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitConstructorDeclarationStatement">VisitConstructorDeclarationStatement Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitCreateArrayExpression.htm" title="VisitCreateArrayExpression Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitCreateArrayExpression">VisitCreateArrayExpression Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitCreateExpression.htm" title="VisitCreateExpression Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitCreateExpression">VisitCreateExpression Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitEnumDeclarationStatement.htm" title="VisitEnumDeclarationStatement Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitEnumDeclarationStatement">VisitEnumDeclarationStatement Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitExpressionStatement.htm" title="VisitExpressionStatement Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitExpressionStatement">VisitExpressionStatement Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitFieldDeclarationStatement.htm" title="VisitFieldDeclarationStatement Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitFieldDeclarationStatement">VisitFieldDeclarationStatement Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitFieldReferenceExpression.htm" title="VisitFieldReferenceExpression Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitFieldReferenceExpression">VisitFieldReferenceExpression Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitForEachStatement.htm" title="VisitForEachStatement Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitForEachStatement">VisitForEachStatement Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitForStatement.htm" title="VisitForStatement Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitForStatement">VisitForStatement Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitIndexerExpression.htm" title="VisitIndexerExpression Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitIndexerExpression">VisitIndexerExpression Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitIsTypeOfExpression.htm" title="VisitIsTypeOfExpression Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitIsTypeOfExpression">VisitIsTypeOfExpression Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitMethodDeclarationStatement.htm" title="VisitMethodDeclarationStatement Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitMethodDeclarationStatement">VisitMethodDeclarationStatement Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitMethodInvocationExpression.htm" title="VisitMethodInvocationExpression Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitMethodInvocationExpression">VisitMethodInvocationExpression Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitMethodReferenceExpression.htm" title="VisitMethodReferenceExpression Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitMethodReferenceExpression">VisitMethodReferenceExpression Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitNamespaceDeclarationStatement.htm" title="VisitNamespaceDeclarationStatement Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitNamespaceDeclarationStatement">VisitNamespaceDeclarationStatement Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitNamespaceImportStatement.htm" title="VisitNamespaceImportStatement Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitNamespaceImportStatement">VisitNamespaceImportStatement Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitParameterDeclarationExpression.htm" title="VisitParameterDeclarationExpression Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitParameterDeclarationExpression">VisitParameterDeclarationExpression Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitParameterReferenceExpression.htm" title="VisitParameterReferenceExpression Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitParameterReferenceExpression">VisitParameterReferenceExpression Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitPrimitiveExpression.htm" title="VisitPrimitiveExpression Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitPrimitiveExpression">VisitPrimitiveExpression Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitPropertyDeclarationStatement.htm" title="VisitPropertyDeclarationStatement Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitPropertyDeclarationStatement">VisitPropertyDeclarationStatement Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitPropertyReferenceExpression.htm" title="VisitPropertyReferenceExpression Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitPropertyReferenceExpression">VisitPropertyReferenceExpression Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitReturnStatement.htm" title="VisitReturnStatement Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitReturnStatement">VisitReturnStatement Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitSeparatorStatement.htm" title="VisitSeparatorStatement Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitSeparatorStatement">VisitSeparatorStatement Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitSetterValueReferenceExpression.htm" title="VisitSetterValueReferenceExpression Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitSetterValueReferenceExpression">VisitSetterValueReferenceExpression Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitTernaryConditionExpression.htm" title="VisitTernaryConditionExpression Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitTernaryConditionExpression">VisitTernaryConditionExpression Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitThisReferenceExpression.htm" title="VisitThisReferenceExpression Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitThisReferenceExpression">VisitThisReferenceExpression Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitThrowExceptionStatement.htm" title="VisitThrowExceptionStatement Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitThrowExceptionStatement">VisitThrowExceptionStatement Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitTryCatchFinallyStatement.htm" title="VisitTryCatchFinallyStatement Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitTryCatchFinallyStatement">VisitTryCatchFinallyStatement Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitTypeDeclarationStatement.htm" title="VisitTypeDeclarationStatement Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitTypeDeclarationStatement">VisitTypeDeclarationStatement Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitTypeOfExpression.htm" title="VisitTypeOfExpression Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitTypeOfExpression">VisitTypeOfExpression Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitTypeReference.htm" title="VisitTypeReference Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitTypeReference">VisitTypeReference Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitTypeReferenceExpression.htm" title="VisitTypeReferenceExpression Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitTypeReferenceExpression">VisitTypeReferenceExpression Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitVariableDeclarationStatement.htm" title="VisitVariableDeclarationStatement Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitVariableDeclarationStatement">VisitVariableDeclarationStatement Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitVariableReferenceExpression.htm" title="VisitVariableReferenceExpression Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitVariableReferenceExpression">VisitVariableReferenceExpression Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitWhileStatement.htm" title="VisitWhileStatement Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitWhileStatement">VisitWhileStatement Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_WriteJsDocSummary.htm" title="WriteJsDocSummary Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_WriteJsDocSummary">WriteJsDocSummary Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_WriteMethodHeader.htm" title="WriteMethodHeader Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_WriteMethodHeader">WriteMethodHeader Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_WriteTarget.htm" title="WriteTarget Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_WriteTarget">WriteTarget Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_WriteWrappedComment.htm" title="WriteWrappedComment Method " tocid="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_WriteWrappedComment">WriteWrappedComment Method </a></div></div></div><div id="TocResize" class="tocResize" onmousedown="OnMouseDown(event);"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize"><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize"></div><div class="topicContent" id="TopicContent">
+        <table class="titleTable">
+          <tr>
+            <td class="titleColumn">JsCodeWriter Methods</td>
+          </tr>
+        </table>
+        <span class="introStyle"></span>
+        <p>The <a href="T_Hydra_CodeGeneration_Javascript_JsCodeWriter.htm">JsCodeWriter</a> type exposes the following members.</p>
+        <div class="collapsibleAreaRegion">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
+            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span>
+        </div>
+        <div id="ID0RBSection" class="collapsibleSection">
+          <table id="memberList" class="members">
+            <tr>
+              <th class="iconColumn">
+								 
+							</th>
+              <th>Name</th>
+              <th>Description</th>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/bsc2ak47" target="_blank">Equals</a>
+              </td>
+              <td>
+                <div class="summary">Determines whether the specified object is equal to the current object.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+            <tr data="protected;inherited;notNetfw;">
+              <td>
+                <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/4k87zsw7" target="_blank">Finalize</a>
+              </td>
+              <td>
+                <div class="summary">Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/zdee4b3y" target="_blank">GetHashCode</a>
+              </td>
+              <td>
+                <div class="summary">Serves as the default hash function. </div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/dfwy45w9" target="_blank">GetType</a>
+              </td>
+              <td>
+                <div class="summary">Gets the <a href="http://msdn2.microsoft.com/en-us/library/42892f65" target="_blank">Type</a> of the current instance.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+            <tr data="protected;inherited;notNetfw;">
+              <td>
+                <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_CodeWriter_IsBlockStart.htm">IsBlockStart</a>
+              </td>
+              <td> (Inherited from <a href="T_Hydra_CodeGeneration_CodeWriter.htm">CodeWriter</a>.)</td>
+            </tr>
+            <tr data="protected;inherited;notNetfw;">
+              <td>
+                <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/57ctke0a" target="_blank">MemberwiseClone</a>
+              </td>
+              <td>
+                <div class="summary">Creates a shallow copy of the current <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+            <tr data="private;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/privmethod.gif" alt="Private method" title="Private method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_NeedsParentheses.htm">NeedsParentheses</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_ToString.htm">ToString</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeGeneration_CodeWriter_ToString.htm">CodeWriter<span id="LSTE1560633_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_0?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ToString<span id="LSTE1560633_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_1?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>.)</td>
+            </tr>
+            <tr data="protected;inherited;notNetfw;">
+              <td>
+                <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeVisitorBase_Visit__1.htm">Visit<span id="LSTE1560633_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_2?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTE1560633_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_3?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td> (Inherited from <a href="T_Hydra_CodeModel_CodeVisitorBase.htm">CodeVisitorBase</a>.)</td>
+            </tr>
+            <tr data="protected;inherited;notNetfw;">
+              <td>
+                <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeVisitorBase_VisitAll__1.htm">VisitAll<span id="LSTE1560633_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_4?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTE1560633_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_5?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(IDictionary<span id="LSTE1560633_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_6?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>String, T<span id="LSTE1560633_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_7?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, CodeModelObject)</a>
+              </td>
+              <td> (Inherited from <a href="T_Hydra_CodeModel_CodeVisitorBase.htm">CodeVisitorBase</a>.)</td>
+            </tr>
+            <tr data="protected;inherited;notNetfw;">
+              <td>
+                <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeVisitorBase_VisitAll__1_1.htm">VisitAll<span id="LSTE1560633_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_8?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTE1560633_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_9?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(IList<span id="LSTE1560633_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_10?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTE1560633_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_11?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, CodeModelObject)</a>
+              </td>
+              <td> (Inherited from <a href="T_Hydra_CodeModel_CodeVisitorBase.htm">CodeVisitorBase</a>.)</td>
+            </tr>
+            <tr data="protected;inherited;notNetfw;">
+              <td>
+                <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_ReadOnlyCodeVisitor_VisitAll__1.htm">VisitAll<span id="LSTE1560633_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_12?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTE1560633_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_13?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(IDictionary<span id="LSTE1560633_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_14?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>String, T<span id="LSTE1560633_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_15?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, CodeModelObject)</a>
+              </td>
+              <td> (Inherited from <a href="T_Hydra_CodeModel_ReadOnlyCodeVisitor.htm">ReadOnlyCodeVisitor</a>.)</td>
+            </tr>
+            <tr data="protected;inherited;notNetfw;">
+              <td>
+                <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_ReadOnlyCodeVisitor_VisitAll__1_1.htm">VisitAll<span id="LSTE1560633_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_16?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTE1560633_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_17?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(IList<span id="LSTE1560633_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_18?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTE1560633_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_19?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, CodeModelObject)</a>
+              </td>
+              <td> (Inherited from <a href="T_Hydra_CodeModel_ReadOnlyCodeVisitor.htm">ReadOnlyCodeVisitor</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitAnonymousFunctionExpression.htm">VisitAnonymousFunctionExpression</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitAnonymousFunctionExpression.htm">CodeVisitor<span id="LSTE1560633_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_20?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitAnonymousFunctionExpression(AnonymousFunctionExpression)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitAssignmentStatement.htm">VisitAssignmentStatement</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitAssignmentStatement.htm">CodeVisitor<span id="LSTE1560633_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_21?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitAssignmentStatement(AssignmentStatement)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitAttributeDeclaration.htm">VisitAttributeDeclaration</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitAttributeDeclaration.htm">CodeVisitor<span id="LSTE1560633_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_22?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitAttributeDeclaration(AttributeDeclaration)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitBaseReferenceExpression.htm">VisitBaseReferenceExpression</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitBaseReferenceExpression.htm">CodeVisitor<span id="LSTE1560633_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_23?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitBaseReferenceExpression(BaseReferenceExpression)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitBinaryOperatorExpression.htm">VisitBinaryOperatorExpression</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitBinaryOperatorExpression.htm">CodeVisitor<span id="LSTE1560633_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_24?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitBinaryOperatorExpression(BinaryOperatorExpression)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitCastExpression.htm">VisitCastExpression</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitCastExpression.htm">CodeVisitor<span id="LSTE1560633_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_25?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitCastExpression(CastExpression)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitCatchClauseStatement.htm">VisitCatchClauseStatement</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitCatchClauseStatement.htm">CodeVisitor<span id="LSTE1560633_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_26?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitCatchClauseStatement(CatchClauseStatement)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitCodeUnit.htm">VisitCodeUnit</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitCodeUnit.htm">CodeVisitor<span id="LSTE1560633_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_27?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitCodeUnit(CodeUnit)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitCommentStatement.htm">VisitCommentStatement</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitCommentStatement.htm">CodeVisitor<span id="LSTE1560633_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_28?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitCommentStatement(CommentStatement)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitConditionStatement.htm">VisitConditionStatement</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitConditionStatement.htm">CodeVisitor<span id="LSTE1560633_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_29?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitConditionStatement(ConditionStatement)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitConstructorDeclarationStatement.htm">VisitConstructorDeclarationStatement</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitConstructorDeclarationStatement.htm">CodeVisitor<span id="LSTE1560633_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_30?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitConstructorDeclarationStatement(ConstructorDeclarationStatement)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitCreateArrayExpression.htm">VisitCreateArrayExpression</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitCreateArrayExpression.htm">CodeVisitor<span id="LSTE1560633_31"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_31?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitCreateArrayExpression(CreateArrayExpression)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitCreateExpression.htm">VisitCreateExpression</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitCreateExpression.htm">CodeVisitor<span id="LSTE1560633_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_32?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitCreateExpression(CreateExpression)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitEnumDeclarationStatement.htm">VisitEnumDeclarationStatement</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitEnumDeclarationStatement.htm">CodeVisitor<span id="LSTE1560633_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_33?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitEnumDeclarationStatement(EnumDeclarationStatement)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitExpressionStatement.htm">VisitExpressionStatement</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitExpressionStatement.htm">CodeVisitor<span id="LSTE1560633_34"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_34?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitExpressionStatement(ExpressionStatement)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitFieldDeclarationStatement.htm">VisitFieldDeclarationStatement</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitFieldDeclarationStatement.htm">CodeVisitor<span id="LSTE1560633_35"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_35?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitFieldDeclarationStatement(FieldDeclarationStatement)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitFieldReferenceExpression.htm">VisitFieldReferenceExpression</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitFieldReferenceExpression.htm">CodeVisitor<span id="LSTE1560633_36"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_36?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitFieldReferenceExpression(FieldReferenceExpression)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitForEachStatement.htm">VisitForEachStatement</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitForEachStatement.htm">CodeVisitor<span id="LSTE1560633_37"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_37?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitForEachStatement(ForEachStatement)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitForStatement.htm">VisitForStatement</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitForStatement.htm">CodeVisitor<span id="LSTE1560633_38"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_38?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitForStatement(ForStatement)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitIndexerExpression.htm">VisitIndexerExpression</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitIndexerExpression.htm">CodeVisitor<span id="LSTE1560633_39"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_39?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitIndexerExpression(IndexerExpression)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitIsTypeOfExpression.htm">VisitIsTypeOfExpression</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitIsTypeOfExpression.htm">CodeVisitor<span id="LSTE1560633_40"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_40?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitIsTypeOfExpression(IsTypeOfExpression)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitMethodDeclarationStatement.htm">VisitMethodDeclarationStatement</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitMethodDeclarationStatement.htm">CodeVisitor<span id="LSTE1560633_41"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_41?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitMethodDeclarationStatement(MethodDeclarationStatement)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitMethodInvocationExpression.htm">VisitMethodInvocationExpression</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitMethodInvocationExpression.htm">CodeVisitor<span id="LSTE1560633_42"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_42?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitMethodInvocationExpression(MethodInvocationExpression)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitMethodReferenceExpression.htm">VisitMethodReferenceExpression</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitMethodReferenceExpression.htm">CodeVisitor<span id="LSTE1560633_43"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_43?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitMethodReferenceExpression(MethodReferenceExpression)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitNamespaceDeclarationStatement.htm">VisitNamespaceDeclarationStatement</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitNamespaceDeclarationStatement.htm">CodeVisitor<span id="LSTE1560633_44"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_44?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitNamespaceDeclarationStatement(NamespaceDeclarationStatement)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitNamespaceImportStatement.htm">VisitNamespaceImportStatement</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitNamespaceImportStatement.htm">CodeVisitor<span id="LSTE1560633_45"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_45?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitNamespaceImportStatement(NamespaceImportStatement)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitParameterDeclarationExpression.htm">VisitParameterDeclarationExpression</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitParameterDeclarationExpression.htm">CodeVisitor<span id="LSTE1560633_46"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_46?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitParameterDeclarationExpression(ParameterDeclarationExpression)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitParameterReferenceExpression.htm">VisitParameterReferenceExpression</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitParameterReferenceExpression.htm">CodeVisitor<span id="LSTE1560633_47"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_47?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitParameterReferenceExpression(ParameterReferenceExpression)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitPrimitiveExpression.htm">VisitPrimitiveExpression</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitPrimitiveExpression.htm">CodeVisitor<span id="LSTE1560633_48"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_48?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitPrimitiveExpression(PrimitiveExpression)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitPropertyDeclarationStatement.htm">VisitPropertyDeclarationStatement</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitPropertyDeclarationStatement.htm">CodeVisitor<span id="LSTE1560633_49"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_49?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitPropertyDeclarationStatement(PropertyDeclarationStatement)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitPropertyReferenceExpression.htm">VisitPropertyReferenceExpression</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitPropertyReferenceExpression.htm">CodeVisitor<span id="LSTE1560633_50"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_50?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitPropertyReferenceExpression(PropertyReferenceExpression)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitReturnStatement.htm">VisitReturnStatement</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitReturnStatement.htm">CodeVisitor<span id="LSTE1560633_51"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_51?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitReturnStatement(ReturnStatement)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitSeparatorStatement.htm">VisitSeparatorStatement</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeGeneration_CodeWriter_VisitSeparatorStatement.htm">CodeWriter<span id="LSTE1560633_52"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_52?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitSeparatorStatement(SeparatorStatement)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitSetterValueReferenceExpression.htm">VisitSetterValueReferenceExpression</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitSetterValueReferenceExpression.htm">CodeVisitor<span id="LSTE1560633_53"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_53?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitSetterValueReferenceExpression(SetterValueReferenceExpression)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitTernaryConditionExpression.htm">VisitTernaryConditionExpression</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitTernaryConditionExpression.htm">CodeVisitor<span id="LSTE1560633_54"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_54?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitTernaryConditionExpression(TernaryConditionExpression)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitThisReferenceExpression.htm">VisitThisReferenceExpression</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitThisReferenceExpression.htm">CodeVisitor<span id="LSTE1560633_55"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_55?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitThisReferenceExpression(ThisReferenceExpression)</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeModel_CodeVisitor_VisitThrowExceptionExpression.htm">VisitThrowExceptionExpression</a>
+              </td>
+              <td> (Inherited from <a href="T_Hydra_CodeModel_CodeVisitor.htm">CodeVisitor</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitThrowExceptionStatement.htm">VisitThrowExceptionStatement</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitThrowExceptionStatement.htm">CodeVisitor<span id="LSTE1560633_56"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_56?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitThrowExceptionStatement(ThrowExceptionStatement)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitTryCatchFinallyStatement.htm">VisitTryCatchFinallyStatement</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitTryCatchFinallyStatement.htm">CodeVisitor<span id="LSTE1560633_57"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_57?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitTryCatchFinallyStatement(TryCatchFinallyStatement)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitTypeDeclarationStatement.htm">VisitTypeDeclarationStatement</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitTypeDeclarationStatement.htm">CodeVisitor<span id="LSTE1560633_58"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_58?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitTypeDeclarationStatement(TypeDeclarationStatement)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitTypeOfExpression.htm">VisitTypeOfExpression</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitTypeOfExpression.htm">CodeVisitor<span id="LSTE1560633_59"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_59?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitTypeOfExpression(TypeOfExpression)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitTypeReference.htm">VisitTypeReference</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitTypeReference.htm">CodeVisitor<span id="LSTE1560633_60"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_60?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitTypeReference(TypeReference)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitTypeReferenceExpression.htm">VisitTypeReferenceExpression</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitTypeReferenceExpression.htm">CodeVisitor<span id="LSTE1560633_61"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_61?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitTypeReferenceExpression(TypeReferenceExpression)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitVariableDeclarationStatement.htm">VisitVariableDeclarationStatement</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitVariableDeclarationStatement.htm">CodeVisitor<span id="LSTE1560633_62"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_62?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitVariableDeclarationStatement(VariableDeclarationStatement)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitVariableReferenceExpression.htm">VisitVariableReferenceExpression</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitVariableReferenceExpression.htm">CodeVisitor<span id="LSTE1560633_63"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_63?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitVariableReferenceExpression(VariableReferenceExpression)</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_VisitWhileStatement.htm">VisitWhileStatement</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeModel_CodeVisitor_VisitWhileStatement.htm">CodeVisitor<span id="LSTE1560633_64"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_64?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>VisitWhileStatement(WhileStatement)</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_CodeWriter_Write.htm">Write</a>
+              </td>
+              <td> (Inherited from <a href="T_Hydra_CodeGeneration_CodeWriter.htm">CodeWriter</a>.)</td>
+            </tr>
+            <tr data="private;declared;notNetfw;">
+              <td>
+                <img src="../icons/privmethod.gif" alt="Private method" title="Private method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_WriteJsDocSummary.htm">WriteJsDocSummary</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="private;declared;notNetfw;">
+              <td>
+                <img src="../icons/privmethod.gif" alt="Private method" title="Private method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_WriteMethodHeader.htm">WriteMethodHeader</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="private;declared;notNetfw;">
+              <td>
+                <img src="../icons/privmethod.gif" alt="Private method" title="Private method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_WriteTarget.htm">WriteTarget</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="protected;declared;notNetfw;">
+              <td>
+                <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
+              </td>
+              <td>
+                <a href="M_Hydra_CodeGeneration_Javascript_JsCodeWriter_WriteWrappedComment.htm">WriteWrappedComment</a>
+              </td>
+              <td> (Overrides <a href="M_Hydra_CodeGeneration_CodeWriter_WriteWrappedComment.htm">CodeWriter<span id="LSTE1560633_65"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE1560633_65?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>WriteWrappedComment(String, String)</a>.)</td>
+            </tr>
+          </table>
+          <a href="#PageHeader">Top</a>
+        </div>
+        <div class="collapsibleAreaRegion">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0">
+            <img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Extension Methods</span>
+        </div>
+        <div id="ID1RBSection" class="collapsibleSection">
+          <table id="memberList" class="members">
+            <tr>
+              <th class="iconColumn">
+								 
+							</th>
+              <th>Name</th>
+              <th>Description</th>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_Extensions_Dump.htm">Dump</a>
+              </td>
+              <td>
+                <div class="summary">
+            Helper to dump an object for the purpose of debugging/temporary
+            serialization.
+            </div> (Defined by <a href="T_Hydra_Extensions.htm">Extensions</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Hydra_Extensions_ToStringOrNull.htm">ToStringOrNull</a>
+              </td>
+              <td>
+                <div class="summary">
+            Return the string representation of a value or null if the value
+            is null.
+            </div> (Defined by <a href="T_Hydra_Extensions.htm">Extensions</a>.)</td>
+            </tr>
+          </table>
+          <a href="#PageHeader">Top</a>
+        </div>
+        <div class="collapsibleAreaRegion" id="seeAlsoSection">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0">
+            <img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span>
+        </div>
+        <div id="ID2RBSection" class="collapsibleSection">
+          <h4 class="subHeading">Reference</h4>
+          <div class="seeAlsoStyle">
+            <a href="T_Hydra_CodeGeneration_Javascript_JsCodeWriter.htm">JsCodeWriter Class</a>
+          </div>
+          <div class="seeAlsoStyle">
+            <a href="N_Hydra_CodeGeneration_Javascript.htm">Hydra.CodeGeneration.Javascript Namespace</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="pageFooter" class="pageFooter"> </div>
+  </body>
+</html>

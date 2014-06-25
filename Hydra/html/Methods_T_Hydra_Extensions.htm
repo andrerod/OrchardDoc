@@ -1,0 +1,437 @@
+﻿<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Extensions Methods</title>
+    <meta name="Language" content="en-us" />
+    <meta name="System.Keywords" content="Extensions class, methods" />
+    <meta name="Microsoft.Help.Id" content="Methods.T:Hydra.Extensions" />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="true" />
+    
+    <meta name="container" content="Hydra" />
+    <meta name="file" content="Methods_T_Hydra_Extensions" />
+    <meta name="guid" content="Methods_T_Hydra_Extensions" />
+    
+    <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
+    <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+  </head>
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="pageHeader" id="PageHeader">Hydra Documentation<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div>
+    <div class="pageBody">
+      <div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="R_Project_Documentation.htm" title="Hydra Documentation" tocid="roottoc">Hydra Documentation</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="R_Project_Documentation.htm" title="Namespaces" tocid="R_Project_Documentation">Namespaces</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="G_Hydra.htm" title="Hydra Namespaces" tocid="G_Hydra">Hydra Namespaces</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="N_Hydra.htm" title="Hydra" tocid="N_Hydra">Hydra</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="T_Hydra_Extensions.htm" title="Extensions Class" tocid="T_Hydra_Extensions">Extensions Class</a></div><div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Methods_T_Hydra_Extensions.htm" title="Extensions Methods" tocid="Methods_T_Hydra_Extensions">Extensions Methods</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_Extensions_AsEnumerable__1.htm" title="AsEnumerable(T) Method " tocid="M_Hydra_Extensions_AsEnumerable__1">AsEnumerable(T) Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_Extensions_Concat__1.htm" title="Concat(T) Method " tocid="M_Hydra_Extensions_Concat__1">Concat(T) Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_Extensions_Dump.htm" title="Dump Method " tocid="M_Hydra_Extensions_Dump">Dump Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_Extensions_EmptyIfNull__1.htm" title="EmptyIfNull(T) Method " tocid="M_Hydra_Extensions_EmptyIfNull__1">EmptyIfNull(T) Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_Extensions_EvaluatePath.htm" title="EvaluatePath Method " tocid="M_Hydra_Extensions_EvaluatePath">EvaluatePath Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_Extensions_ForEach__1.htm" title="ForEach(T) Method " tocid="M_Hydra_Extensions_ForEach__1">ForEach(T) Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_Hydra_Extensions_ForEachSeparated.htm" title="ForEachSeparated Method " tocid="Overload_Hydra_Extensions_ForEachSeparated">ForEachSeparated Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_Extensions_Get__1.htm" title="Get(T) Method " tocid="M_Hydra_Extensions_Get__1">Get(T) Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_Hydra_Extensions_GetAll.htm" title="GetAll Method " tocid="Overload_Hydra_Extensions_GetAll">GetAll Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_Extensions_GetFullName.htm" title="GetFullName Method " tocid="M_Hydra_Extensions_GetFullName">GetFullName Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_Extensions_GetGenericInterface.htm" title="GetGenericInterface Method " tocid="M_Hydra_Extensions_GetGenericInterface">GetGenericInterface Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_Extensions_GetValueOrDefault__2.htm" title="GetValueOrDefault(K, V) Method " tocid="M_Hydra_Extensions_GetValueOrDefault__2">GetValueOrDefault(K, V) Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_Extensions_GetValueOrDefaultChained__2.htm" title="GetValueOrDefaultChained(K, V) Method " tocid="M_Hydra_Extensions_GetValueOrDefaultChained__2">GetValueOrDefaultChained(K, V) Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_Extensions_Has__1.htm" title="Has(T) Method " tocid="M_Hydra_Extensions_Has__1">Has(T) Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_Extensions_IsEmpty__1.htm" title="IsEmpty(T) Method " tocid="M_Hydra_Extensions_IsEmpty__1">IsEmpty(T) Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_Extensions_IsNullable.htm" title="IsNullable Method " tocid="M_Hydra_Extensions_IsNullable">IsNullable Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_Extensions_IsNumeric.htm" title="IsNumeric Method " tocid="M_Hydra_Extensions_IsNumeric">IsNumeric Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_Extensions_IsPatchable.htm" title="IsPatchable Method " tocid="M_Hydra_Extensions_IsPatchable">IsPatchable Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_Extensions_StripNullableType.htm" title="StripNullableType Method " tocid="M_Hydra_Extensions_StripNullableType">StripNullableType Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_Extensions_ToMapping__2.htm" title="ToMapping(TKey, TValue) Method " tocid="M_Hydra_Extensions_ToMapping__2">ToMapping(TKey, TValue) Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_Extensions_ToStringOrNull.htm" title="ToStringOrNull Method " tocid="M_Hydra_Extensions_ToStringOrNull">ToStringOrNull Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_Extensions_With.htm" title="With Method " tocid="M_Hydra_Extensions_With">With Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Hydra_Extensions_WordWrap.htm" title="WordWrap Method " tocid="M_Hydra_Extensions_WordWrap">WordWrap Method </a></div></div></div><div id="TocResize" class="tocResize" onmousedown="OnMouseDown(event);"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize"><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize"></div><div class="topicContent" id="TopicContent">
+        <table class="titleTable">
+          <tr>
+            <td class="titleColumn">Extensions Methods</td>
+          </tr>
+        </table>
+        <span class="introStyle"></span>
+        <p>The <a href="T_Hydra_Extensions.htm">Extensions</a> type exposes the following members.</p>
+        <div class="collapsibleAreaRegion">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
+            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span>
+        </div>
+        <div id="ID0RBSection" class="collapsibleSection">
+          <table id="memberList" class="members">
+            <tr>
+              <th class="iconColumn">
+								 
+							</th>
+              <th>Name</th>
+              <th>Description</th>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_Extensions_AsEnumerable__1.htm">AsEnumerable<span id="LST8A3BA1AC_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8A3BA1AC_0?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST8A3BA1AC_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8A3BA1AC_1?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td>
+                <div class="summary">
+            Strongly type a sequence.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_Extensions_Concat__1.htm">Concat<span id="LST8A3BA1AC_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8A3BA1AC_2?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST8A3BA1AC_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8A3BA1AC_3?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td>
+                <div class="summary">
+            Concatenate sequences together.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_Extensions_Dump.htm">Dump</a>
+              </td>
+              <td>
+                <div class="summary">
+            Helper to dump an object for the purpose of debugging/temporary
+            serialization.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_Extensions_EmptyIfNull__1.htm">EmptyIfNull<span id="LST8A3BA1AC_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8A3BA1AC_4?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST8A3BA1AC_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8A3BA1AC_5?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td>
+                <div class="summary">
+            Helper to replace a null sequence with an empty sequence.  This
+            makes it a little easier to chain sequence operations.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_Extensions_EvaluatePath.htm">EvaluatePath</a>
+              </td>
+              <td>
+                <div class="summary">
+            Evaluate a property path against a given instance.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_Extensions_ForEach__1.htm">ForEach<span id="LST8A3BA1AC_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8A3BA1AC_6?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST8A3BA1AC_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8A3BA1AC_7?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td>
+                <div class="summary">
+            Maps an action with side effects over a sequence.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_Extensions_ForEachSeparated__1.htm">ForEachSeparated<span id="LST8A3BA1AC_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8A3BA1AC_8?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST8A3BA1AC_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8A3BA1AC_9?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(IEnumerable<span id="LST8A3BA1AC_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8A3BA1AC_10?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST8A3BA1AC_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8A3BA1AC_11?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, Action<span id="LST8A3BA1AC_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8A3BA1AC_12?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST8A3BA1AC_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8A3BA1AC_13?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, Action)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Maps an action with side effects over a sequence but runs a
+            separating action in between each element.  For example, if a
+            mapping action prints the elements of a sequence then the separting
+            action might be used to print commas.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_Extensions_ForEachSeparated__1_1.htm">ForEachSeparated<span id="LST8A3BA1AC_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8A3BA1AC_14?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST8A3BA1AC_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8A3BA1AC_15?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(IEnumerable<span id="LST8A3BA1AC_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8A3BA1AC_16?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST8A3BA1AC_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8A3BA1AC_17?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, Action<span id="LST8A3BA1AC_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8A3BA1AC_18?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST8A3BA1AC_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8A3BA1AC_19?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, Action, Action)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Maps an action with side effects over a sequence but runs a
+            separating action in between each element with a distinct separator
+            for the last two elements.  For example, if a mapping action prints
+            the elements of a sequence then the separting action might be used
+            to print commas with a last separator of a ", and".
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_Extensions_Get__1.htm">Get<span id="LST8A3BA1AC_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8A3BA1AC_20?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST8A3BA1AC_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8A3BA1AC_21?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td>
+                <div class="summary">
+            Get the first attribute of a given type from a reflected member, or
+            null if not found.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_Extensions_GetAll.htm">GetAll(ICustomAttributeProvider, Type, Boolean)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Gets the attributes of a given type from a reflected member.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_Extensions_GetAll__1.htm">GetAll<span id="LST8A3BA1AC_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8A3BA1AC_22?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST8A3BA1AC_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8A3BA1AC_23?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(ICustomAttributeProvider, Boolean)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Gets the attributes of a given type from a reflected member.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_Extensions_GetFullName.htm">GetFullName</a>
+              </td>
+              <td>
+                <div class="summary">
+            Gets the full name of a member.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_Extensions_GetGenericInterface.htm">GetGenericInterface</a>
+              </td>
+              <td>
+                <div class="summary">
+            Get the closed generic type of the desired interface if it's
+            implemented by the type.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_Extensions_GetValueOrDefault__2.htm">GetValueOrDefault<span id="LST8A3BA1AC_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8A3BA1AC_24?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>K, V<span id="LST8A3BA1AC_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8A3BA1AC_25?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td>
+                <div class="summary">
+            Gets the value for a given key in a dictionary, or a default value
+            if the key is not found.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_Extensions_GetValueOrDefaultChained__2.htm">GetValueOrDefaultChained<span id="LST8A3BA1AC_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8A3BA1AC_26?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>K, V<span id="LST8A3BA1AC_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8A3BA1AC_27?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td>
+                <div class="summary">
+            Gets the value for a given key in a dictionary.  If not found, it
+            will check a second dictionary.  If still not found, it will return
+            a default value.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_Extensions_Has__1.htm">Has<span id="LST8A3BA1AC_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8A3BA1AC_28?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST8A3BA1AC_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8A3BA1AC_29?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td>
+                <div class="summary">
+            Determines whether a reflected member has an attribute of the given
+            type declared.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_Extensions_IsEmpty__1.htm">IsEmpty<span id="LST8A3BA1AC_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8A3BA1AC_30?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST8A3BA1AC_31"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8A3BA1AC_31?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td>
+                <div class="summary">
+            Determines whether a sequence is empty.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_Extensions_IsNullable.htm">IsNullable</a>
+              </td>
+              <td>
+                <div class="summary">
+            Determines whether a type is nullable.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_Extensions_IsNumeric.htm">IsNumeric</a>
+              </td>
+              <td>
+                <div class="summary">
+            Determine whether a type represents a numeric value.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_Extensions_IsPatchable.htm">IsPatchable</a>
+              </td>
+              <td>
+                <div class="summary">
+            Determines whether a type is patchable.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_Extensions_StripNullableType.htm">StripNullableType</a>
+              </td>
+              <td>
+                <div class="summary">
+            Strips the nullable from a type.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_Extensions_ToMapping__2.htm">ToMapping<span id="LST8A3BA1AC_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8A3BA1AC_32?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TKey, TValue<span id="LST8A3BA1AC_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8A3BA1AC_33?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td>
+                <div class="summary">
+            Create a mapping from sequence of elements to values of those
+            elements.  Note that the mapping will be restricted to elements that
+            actually have a value.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_Extensions_ToStringOrNull.htm">ToStringOrNull</a>
+              </td>
+              <td>
+                <div class="summary">
+            Return the string representation of a value or null if the value
+            is null.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_Extensions_With.htm">With</a>
+              </td>
+              <td>
+                <div class="summary">
+            Format a string with the given arguments.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Hydra_Extensions_WordWrap.htm">WordWrap</a>
+              </td>
+              <td>
+                <div class="summary">
+            Word wrap a string of text to a given width.
+            </div>
+              </td>
+            </tr>
+          </table>
+          <a href="#PageHeader">Top</a>
+        </div>
+        <div class="collapsibleAreaRegion" id="seeAlsoSection">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0">
+            <img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span>
+        </div>
+        <div id="ID1RBSection" class="collapsibleSection">
+          <h4 class="subHeading">Reference</h4>
+          <div class="seeAlsoStyle">
+            <a href="T_Hydra_Extensions.htm">Extensions Class</a>
+          </div>
+          <div class="seeAlsoStyle">
+            <a href="N_Hydra.htm">Hydra Namespace</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="pageFooter" class="pageFooter"> </div>
+  </body>
+</html>

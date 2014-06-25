@@ -1,16 +1,16 @@
 ﻿@{
     var path = Request.PhysicalPath.Trim('\\');
     if (path == Request.PhysicalApplicationPath.Trim('\\')) {
-        Page.DocumentTitle = "Orchard Documentation";
+        Page.DocumentTitle = "ADX SDK Documentation";
         Page.Title = Page.DocumentTitle;
-        Page.EditUrl = "https://github.com/OrchardCMS/OrchardDoc/blob/master/Index.markdown";
+        Page.EditUrl = "https://github.com/Azure/adx-documentation-pr/blob/master/README.md";
     }
     else {
         var docName = Path.GetFileNameWithoutExtension(path);
         Page.DocumentTitle = docName.Replace('-', ' ');
-        Page.Title = Page.DocumentTitle + " - Orchard Documentation";
-        Page.EditUrl = "https://github.com/OrchardCMS/OrchardDoc/blob/master/Documentation/" + docName + ".markdown";
+        Page.Title = Page.DocumentTitle + " - ADX SDK Documentation";
+        Page.EditUrl = "https://github.com/Azure/adx-documentation-pr/blob/master/Documentation/" + docName + ".md";
     }
-    Page.IssuesUrl = "https://github.com/OrchardCMS/OrchardDoc/issues";
+    Page.IssuesUrl = "https://github.com/Azure/adx-documentation-pr/issues";
     Layout = "_SiteLayout.cshtml";
 }

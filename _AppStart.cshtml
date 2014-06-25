@@ -6,7 +6,4 @@
     MarkdownWebPage.AlterBehaviors(b => b.Add(MarkdownExtensions.ProcessIncludes));
     MarkdownWebPage.AlterBehaviors(b => b.Add(MarkdownExtensions.ProcessComments));
     MarkdownWebPage.AlterBehaviors(b => b.Add(MarkdownExtensions.ProcessTables));
-    
-    // Index the whole documentation on app start
-    SearchHelpers.BuildIndex(HttpContext.Current);
 }
